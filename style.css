@@ -1,0 +1,130 @@
+*,
+::before,
+::after {
+  flex: 0 1 auto;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+body {
+  margin: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  fill: currentColor;
+}
+
+h1 {
+  flex: 1 1 100%;
+}
+
+/* Home */
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 87vh;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.home:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.home * {
+  flex: 0 1 auto;
+  position: relative;
+  z-index: 10;
+}
+.home .home__inner {
+
+}
+.home h1 {
+  margin-bottom: 1rem;
+}
+.home p {
+  display: block;
+  margin-bottom: 2.5rem;
+}
+.home .button {
+  text-decoration: none;
+}
+/* END Home */
+
+
+/* All Pages */
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.page:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.page * {
+  flex: 0 1 auto;
+  position: relative;
+  z-index: 10;
+}
+.page .page__inner {
+  margin-bottom: 13vh;
+}
+.page h1 {
+  margin-bottom: 1rem;
+}
+.page p {
+  display: block;
+  margin-bottom: 1rem;
+}
+.page ul {
+  padding: 0;
+}
+.page li {
+  list-style: none;
+}
+.page img {
+  height: auto;
+  max-width: 100%;
+}
+.page .button {
+  display: inline-block;
+  text-decoration: none;
+}
+/* END All Pages */

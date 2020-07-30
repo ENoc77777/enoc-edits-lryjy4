@@ -1,0 +1,85 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@300;400;700&display=swap');
+/* END Import Fonts */ 
+
+/* All Pages */
+h1,
+h2,
+p,
+ul {
+  color: #ffffff;
+}
+.button {
+  background: #FFEB3B;
+  border-radius: 2rem;
+  color: #444444;
+  font-family: 'Roboto Mono', monospace;
+  padding: 1rem 1.5rem;
+}
+/* END All Pages */
+
+/* Navigation Tabs */
+.router {
+  background-color: #e5f7f4;
+  font-family: 'Roboto Mono', monospace;
+}
+.router > li + li {
+ border-left-color: #81e7d6;
+}
+.router > li a {
+  color: #444;
+  font-size: 85%;
+}
+/* END Navigation Tabs */
+
+/* Home */
+.home {
+  background-color: #444444;
+  background-image: url('https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+.home:before {
+  background: #111;
+  opacity: 0.4;
+}
+/* END Welcome */
+
+/* All Pages */
+.page {
+  background-color: #aaaaaa;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+.page:before {
+  background: #111;
+  opacity: 0.4;
+}
+/* END All Pages */
+
+
+/* Coding */
+.coding {
+  background-image: url('https://images.unsplash.com/photo-1585229259255-9f0816d671a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80');
+}
+/* END Coding */
+
+
+/* Touch Typing */
+.touch-typing { background-image: url('https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') }
+/* END Touch Typing */
+
+/* WPMCPM */
+.wpcpm {
+  background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1993&q=80');
+}
+.wpcpm:before {
+  background: #111;
+  opacity: 0.4;
+}
+/* END WPMCPM */
